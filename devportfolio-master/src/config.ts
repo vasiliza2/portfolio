@@ -13,12 +13,13 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "1 курс",
-      description:
-        "Информатика ",
-      link: "https://drive.google.com/drive/u/0/folders/1oNxZqabOsJIMZU2ktY8vjNvRiDFtwAqF",
-      skills: ["React", "Node.js", "AWS"],
-    },
+  name: "Название Проекта",
+  // ...
+  links: [
+    { label: "Ссылка 1", url: "https://url1.com" },
+    { label: "Ссылка 2", url: "https://url2.com" },
+  ],
+},
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
       description:
