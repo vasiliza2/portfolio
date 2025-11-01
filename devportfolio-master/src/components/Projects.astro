@@ -26,9 +26,9 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                 return (
                   <div class="group relative">
                     <div
-                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
+                      class={`block relative p-4 sm:p-6 md:p-8 bg-pink-100 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
                         hasLinks
-                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
+                          ? "hover:bg-white hover:shadow-xl hover:border-pink-300 hover:-translate-y-1"
                           : ""
                       }`}
                     >
@@ -58,7 +58,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                                 href={link.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="block text-base sm:text-lg font-medium text-gray-700 transition-colors duration-200 w-fit border-b border-transparent hover:text-gray-900 hover:border-gray-900"
+                                class="block text-base sm:text-lg font-medium text-gray-700 transition-colors duration-500 w-fit border-b border-transparent hover:text-pink-900 hover:border-pink-700"
                               >
                                 <span>{link.label}</span>
                               </a>
