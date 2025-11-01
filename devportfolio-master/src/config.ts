@@ -9,8 +9,8 @@ export const siteConfig = {
     github: "https://github.com/vasiliza2",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Имею опыт работы более 2-х лет в event сфере. На позиции менеджера управляла командой в процессе организации и проведения различных мероприятий и вела необходимую документацию. Получаю высшее образование по специальности «Разработка программного обеспечения», обладаю пониманием основ разработки и базовым пониманием проектного управления. Свободно читаю код на таких языках, как Python, C++, JavaScript и языки разметки. Одной из моих сильных сторон является умение работать в режиме многозадачности с большим объемом поступающей информации. Этот навык я приобрела благодаря ежедневному выполнению разных задач в режиме строгого дедлайна. Также моей сильной стороной является системное мышление: получая задачу, я умею разложить её на подзадачи, расставить приоритеты, оценить инструменты, источники информации, сроки работы и дальнейшие шаги по реализации. Позиционирую себя как открытого человека с хорошими навыками коммуникации с разными типами людей, я умею решать проблемы, которые могут возникать при общении. Могу добиваться результата, как работая в команде, так и выполняя самостоятельную работу.",
+  skills: ["Javascript", "React", "A/B test", "Python", "SQL", "Docker", "PowerBi"],
   projects: [
     {
   name: "1 курс",
@@ -111,23 +111,21 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "РГПУ им.Герцена",
+      degree: "Бакалавр",
+      dateRange: "2022 - 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "09.03.01 Информатика и вычислительная техника",
+        "Технологии разработки программного обеспечения",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "МФТИ",
+      degree: "Диплом профессиональной переподготовки",
+      dateRange: "2024-2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Продуктовая аналитика",
+        "270 академических часов",
       ],
     },
   ],
